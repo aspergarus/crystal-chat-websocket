@@ -1,0 +1,17 @@
+name: crystal_demo
+version: 0.1.0
+
+authors:
+  - o.smoliankin <ashustrich@gmail.com>
+
+targets:
+  crystal_demo:
+    main: src/crystal_demo.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: '>= 1.11.1'
+
+license: MIT
